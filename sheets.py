@@ -3,9 +3,9 @@ import csv
 import io
 import json
 
-SHEET_ID = "1Iq4Y8lCSbSuJh-V-AsaE4MkQXPXc5OP2Y21_DHX2PYE"
+SHEET_ID = "1UOP3U6H_37ewVAz6GD9yLd6MJAtuVHa8WkMhdMA9uoM"
 BASE_URL = "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/gviz/tq?tqx=out:csv"
-APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbynrkgrBcw8JE96uqWZi8GMcungbL-qL9P8N6-YlnmfbuoA__42lui4cVl7RLinLs020w/exec"
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbymr5qap7oBXa4pufVm9z786ChjKgqJ7o_LdilQaqf5JxeJZ4WRlFGwmAPbCRYYTrwe/exec"
 
 async def get_catalogo() -> str:
     url = BASE_URL + "&sheet=Catalogo"
